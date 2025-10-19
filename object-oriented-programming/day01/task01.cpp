@@ -24,8 +24,10 @@ int main()
     if(num2 == 0 )
 
     {
-        cout << "Plz enter num != 0\n";
+        cout << "Plz enter sec num != 0 : ";
         cin >> num2;
+        cout << "num1 / num2 : " << num1/num2;
+    }else {
         cout << "num1 / num2 : " << num1/num2;
     }
     return 0;
